@@ -1,1 +1,57 @@
 
+
+
+h1{
+	color:brown;
+	font-size: 50px;
+	font-family: Tahoma;
+}
+p{
+	color:black;
+	font-size:12px;
+	font-weight: bolder;
+	font-family: Helvetica;
+	padding: 50px 20px 20px 0px;
+
+}
+#t1{ width: 65px; height: 40px; border-style:solid; margin:0 auto ; background: yellow; float: right;  position: absolute right;}
+#t2{ width: 65px; height: 40px; border-style:solid; margin:0 auto; background: pink; float: right; position: absolute right;}
+#t3{ width: 65px; height: 40px; border-style:solid; margin:0 auto;  background: red; float: right; position: absolute right;}
+
+@media (min-width: 992px)
+{
+#b1{ width: 30%; height:250px; border-style: solid; margin-left:40px; background: grey; float: left; }
+
+
+
+#b2{ width: 30%; height:250px; border-style: solid; margin-left:40px ; background: grey; float: left; }
+
+
+#b3{ width: 30%; height:250px; border-style: solid; margin-left:40px ; background: grey; float: left; }
+
+}
+
+@media (min-width: 768px) and (max-width:991px)
+{
+#b1{ width: 40%; height:250px; border-style: solid; margin-left:40px; background: grey; float: left; }
+
+
+#b2{ width: 40%; height:250px; border-style: solid; margin-left:40px ; background: grey; float: left; }
+
+
+#b3{ width: 85%; height:180px; border-style: solid; margin-left:40px ; background: grey; float: left; margin-top:20px; }
+}
+
+@media (max-width:767px)
+{
+#b1{ width: 80%; height:250px; border-style: solid; margin-left:40px; background: grey; float: left; }
+
+
+#b2{ width: 80%; height:250px; border-style: solid; margin-left:40px ; background: grey; float: left; margin-top:20px; }
+
+
+#b3{ width: 80%; height:250px; border-style: solid; margin-left:40px ; background: grey; float: left; margin-top:20px; }
+}
+
+
+
